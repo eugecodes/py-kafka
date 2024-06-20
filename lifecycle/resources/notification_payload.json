@@ -1,0 +1,30 @@
+{
+    "events": [
+      {
+        "id": "ingestion_egress_uuid",
+        "entityType": "entityName",
+        "status": "COMPLETED",
+        "description": "long Description",
+        "eventTime": 1689912000000,
+        "workflowId": "business Process Id/WorkflowId",
+        "batchId": "batchId",
+        "totalEvents": 0,
+        "processedEvents": 0,
+        "ignoredEvents": 0,
+        "erroredEvents": 0,
+        "fileName": "ingestedFile",
+        "error": {
+          "summary": "This is error summary",
+          "errorCode": "PDC-001",
+          "details": [
+            {
+              "recordId": "recordId",
+              "eventTime": 1689912000000,
+              "description": "This is short error desc",
+              "detailedDescription": "This is detailed error Message"
+            }
+          ]
+        }
+      }
+    ]
+  }
